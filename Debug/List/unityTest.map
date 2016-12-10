@@ -1,0 +1,304 @@
+###############################################################################
+#
+# IAR ELF Linker V7.80.1.11864/W32 for ARM                08/Dec/2016  13:13:58
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\sleewin\repos\code\unityTest\Debug\Exe\unityTest.out
+#    Map file     =  
+#        C:\Users\sleewin\repos\code\unityTest\Debug\List\unityTest.map
+#    Command line =  
+#        C:\Users\sleewin\repos\code\unityTest\Debug\Obj\ProductionCode.o
+#        C:\Users\sleewin\repos\code\unityTest\Debug\Obj\TestProductionCode.o
+#        C:\Users\sleewin\repos\code\unityTest\Debug\Obj\TestProductionCode_Runner.o
+#        C:\Users\sleewin\repos\code\unityTest\Debug\Obj\unity.o -o
+#        C:\Users\sleewin\repos\code\unityTest\Debug\Exe\unityTest.out
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull --map
+#        C:\Users\sleewin\repos\code\unityTest\Debug\List\unityTest.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.5\arm\config\linker\NXP\KEAZN64xxx2.icf" --semihosting --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                   = *
+__SystemLibrary             = DLib
+__dlib_jmp_buf_num_elements = 8
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00000000 { ro section .intvec };
+"P2":  place in [from 0x00000000 to 0x000003ff] |
+                [from 0x00000410 to 0x0000ffff] { ro };
+"P3":  place in [from 0x1ffffc00 to 0x1fffffff] |
+                [from 0x20000000 to 0x20000bff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address   Size  Object
+  -------            ----        -------   ----  ------
+"A0":                                      0x40
+  .intvec            ro code  0x00000000   0x40  vector_table_M.o [5]
+                            - 0x00000040   0x40
+
+"P2", part 1 of 2:                         0x2c
+  .rodata            const    0x00000040    0x0  zero_init3.o [5]
+  .rodata            const    0x00000040    0x0  copy_init3.o [5]
+  Initializer bytes  const    0x00000040   0x2c  <for P3 s0>
+                            - 0x0000006c   0x2c
+
+"P2", part 2 of 2:                        0xbc4
+  .text              ro code  0x00000410  0x368  unity.o [1]
+  .text              ro code  0x00000778   0x24  putchar.o [3]
+  .text              ro code  0x0000079c   0xae  I32DivModFast.o [5]
+  .text              ro code  0x0000084a    0x2  vector_table_M.o [5]
+  .text              ro code  0x0000084c   0x36  setjmp.o [5]
+  .text              ro code  0x00000882   0x10  write.o [6]
+  .text              ro code  0x00000894    0x2  IntDivZer.o [5]
+  .text              ro code  0x00000896   0x1e  dwrite.o [6]
+  .text              ro code  0x000008b4   0x20  iarwstd.o [6]
+  .text              ro code  0x000008d4   0x22  iarwrite.o [6]
+  .text              ro code  0x000008f8   0x6c  iarttio.o [6]
+  .text              ro code  0x00000964    0x8  XShttio.o [3]
+  .text              ro code  0x0000096c  0x178  TestProductionCode_Runner.o [1]
+  .text              ro code  0x00000ae4  0x124  TestProductionCode.o [1]
+  .text              ro code  0x00000c08   0x30  ProductionCode.o [1]
+  .rodata            const    0x00000c38   0x74  TestProductionCode_Runner.o [1]
+  .rodata            const    0x00000cac   0x6c  TestProductionCode_Runner.o [1]
+  .rodata            const    0x00000d18   0x60  TestProductionCode_Runner.o [1]
+  .rodata            const    0x00000d78   0x50  TestProductionCode_Runner.o [1]
+  .rodata            const    0x00000dc8   0x4c  TestProductionCode_Runner.o [1]
+  .text              ro code  0x00000e14   0x3c  zero_init3.o [5]
+  .text              ro code  0x00000e50   0x30  copy_init3.o [5]
+  .text              ro code  0x00000e80   0x28  data_init.o [5]
+  .iar.init_table    const    0x00000ea8   0x24  - Linker created -
+  .rodata            const    0x00000ecc   0x1c  TestProductionCode_Runner.o [1]
+  .rodata            const    0x00000ee8   0x1c  unity.o [1]
+  .text              ro code  0x00000f04   0x1a  cmain.o [5]
+  .text              ro code  0x00000f1e    0x4  low_level_init.o [3]
+  .text              ro code  0x00000f22    0x8  exit.o [3]
+  .text              ro code  0x00000f2c    0xa  cexit.o [5]
+  .text              ro code  0x00000f38   0x14  exit.o [6]
+  .rodata            const    0x00000f4c   0x18  unity.o [1]
+  .rodata            const    0x00000f64    0xc  unity.o [1]
+  .rodata            const    0x00000f70    0xc  unity.o [1]
+  .rodata            const    0x00000f7c    0xc  unity.o [1]
+  .rodata            const    0x00000f88    0xc  unity.o [1]
+  .rodata            const    0x00000f94    0xc  unity.o [1]
+  .text              ro code  0x00000fa0    0xc  cstartup_M.o [5]
+  .rodata            const    0x00000fac    0x8  unity.o [1]
+  .rodata            const    0x00000fb4    0x8  unity.o [1]
+  .rodata            const    0x00000fbc    0x8  unity.o [1]
+  .rodata            const    0x00000fc4    0x8  unity.o [1]
+  .rodata            const    0x00000fcc    0x4  unity.o [1]
+  .rodata            const    0x00000fd0    0x4  unity.o [1]
+                            - 0x00000fd4  0xbc4
+
+"P3", part 1 of 3:                         0x2c
+  P3 s0                       0x1ffffc00   0x2c  <Init block>
+    .data            inited   0x1ffffc00   0x24  ProductionCode.o [1]
+    .data            inited   0x1ffffc24    0x8  XShttio.o [3]
+                            - 0x1ffffc2c   0x2c
+
+"P3", part 2 of 3:                         0x6c
+  .bss               zero     0x1ffffc30   0x68  unity.o [1]
+  .bss               zero     0x1ffffc98    0x4  ProductionCode.o [1]
+                            - 0x1ffffc9c   0x6c
+
+"P3", part 3 of 3:                        0x200
+  CSTACK                      0x1ffffca0  0x200  <Block>
+    CSTACK           uninit   0x1ffffca0  0x200  <Block tail>
+                            - 0x1ffffea0  0x200
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x6c:
+          0x1ffffc30  0x6c
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x2c:
+          0x00000040  0x2c
+    1 destination range, total size 0x2c:
+          0x1ffffc00  0x2c
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                       ro code  ro data  rw data
+    ------                       -------  -------  -------
+C:\Users\sleewin\repos\code\unityTest\Debug\Obj: [1]
+    ProductionCode.o                  48       36       40
+    TestProductionCode.o             292
+    TestProductionCode_Runner.o      376      504
+    unity.o                          872      152      104
+    ------------------------------------------------------
+    Total:                         1 588      692      144
+
+command line: [2]
+    ------------------------------------------------------
+    Total:
+
+dl6M_tln.a: [3]
+    XShttio.o                          8        8        8
+    exit.o                             8
+    low_level_init.o                   4
+    putchar.o                         36
+    ------------------------------------------------------
+    Total:                            56        8        8
+
+m6M_tl.a: [4]
+    ------------------------------------------------------
+    Total:
+
+rt6M_tl.a: [5]
+    I32DivModFast.o                  174
+    IntDivZer.o                        2
+    cexit.o                           10
+    cmain.o                           26
+    copy_init3.o                      48
+    cstartup_M.o                      12
+    data_init.o                       40
+    setjmp.o                          54
+    vector_table_M.o                  66
+    zero_init3.o                      60
+    ------------------------------------------------------
+    Total:                           492
+
+shb_l.a: [6]
+    dwrite.o                          30
+    exit.o                            20
+    iarttio.o                        108
+    iarwrite.o                        34
+    iarwstd.o                         32
+    write.o                           16
+    ------------------------------------------------------
+    Total:                           240
+
+    Gaps                               8
+    Linker created                             36      512
+----------------------------------------------------------
+    Grand Total:                   2 384      736      664
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x00000ea8          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00000ecc          --   Gb  - Linker created -
+?main                   0x00000f05         Code  Gb  cmain.o [5]
+CSTACK$$Base            0x1ffffca0          --   Gb  - Linker created -
+CSTACK$$Limit           0x1ffffea0          --   Gb  - Linker created -
+Counter                 0x1ffffc98    0x4  Data  Gb  ProductionCode.o [1]
+FindFunction_WhichIsBroken
+                        0x00000c09   0x20  Code  Gb  ProductionCode.o [1]
+FunctionWhichReturnsLocalVariable
+                        0x00000c29    0x6  Code  Gb  ProductionCode.o [1]
+NumbersToFind           0x1ffffc00   0x24  Data  Gb  ProductionCode.o [1]
+Region$$Table$$Base     0x00000ea8          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00000ecc          --   Gb  - Linker created -
+Unity                   0x1ffffc30   0x68  Data  Gb  unity.o [1]
+UnityAddMsgIfSpecified  0x000005f1   0x48  Code  Lc  unity.o [1]
+UnityAssertEqualNumber  0x0000063d   0x5c  Code  Gb  unity.o [1]
+UnityBegin              0x000006c1   0x3c  Code  Gb  unity.o [1]
+UnityConcludeTest       0x000005a1   0x50  Code  Gb  unity.o [1]
+UnityEnd                0x000006ff   0x62  Code  Gb  unity.o [1]
+UnityPrint              0x00000411   0x5e  Code  Gb  unity.o [1]
+UnityPrintFail          0x00000549    0xa  Code  Gb  unity.o [1]
+UnityPrintNumber        0x000004bd   0x1a  Code  Gb  unity.o [1]
+UnityPrintNumberByStyle
+                        0x0000046f   0x4e  Code  Gb  unity.o [1]
+UnityPrintNumberHex     0x00000517   0x32  Code  Gb  unity.o [1]
+UnityPrintNumberUnsigned
+                        0x000004d7   0x40  Code  Gb  unity.o [1]
+UnityPrintOk            0x00000553    0xa  Code  Gb  unity.o [1]
+UnitySizeMask           0x00000ee8   0x1c  Data  Lc  unity.o [1]
+UnityStrBreaker         0x00000f4c   0x18  Data  Lc  unity.o [1]
+UnityStrDetail1Name     0x00000f88    0xc  Data  Lc  unity.o [1]
+UnityStrDetail2Name     0x00000f94    0xc  Data  Lc  unity.o [1]
+UnityStrExpected        0x00000f64    0xc  Data  Lc  unity.o [1]
+UnityStrFail            0x00000fb4    0x8  Data  Lc  unity.o [1]
+UnityStrOk              0x00000fcc    0x4  Data  Lc  unity.o [1]
+UnityStrPass            0x00000fac    0x8  Data  Lc  unity.o [1]
+UnityStrResultsFailures
+                        0x00000f70    0xc  Data  Lc  unity.o [1]
+UnityStrResultsIgnored  0x00000f7c    0xc  Data  Lc  unity.o [1]
+UnityStrResultsTests    0x00000fc4    0x8  Data  Lc  unity.o [1]
+UnityStrSpacer          0x00000fd0    0x4  Data  Lc  unity.o [1]
+UnityStrWas             0x00000fbc    0x8  Data  Lc  unity.o [1]
+UnityTestResultsBegin   0x0000055d   0x2a  Code  Lc  unity.o [1]
+UnityTestResultsFailBegin
+                        0x00000587   0x1a  Code  Lc  unity.o [1]
+__aeabi_JMP_BUF_SIZE {Abs}
+                        0x00000008          --   Gb  setjmp.o [5]
+__aeabi_idiv0           0x00000895         Code  Gb  IntDivZer.o [5]
+__aeabi_uidiv           0x0000079d         Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x0000079d         Code  Gb  I32DivModFast.o [5]
+__cmain                 0x00000f05         Code  Gb  cmain.o [5]
+__dwrite                0x00000897   0x1e  Code  Gb  dwrite.o [6]
+__exit                  0x00000f39   0x14  Code  Gb  exit.o [6]
+__iar_close_ttio        0x000008f9   0x2e  Code  Gb  iarttio.o [6]
+__iar_copy_init3        0x00000e51   0x30  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x00000e81   0x28  Code  Gb  data_init.o [5]
+__iar_get_ttio          0x00000929   0x38  Code  Gb  iarttio.o [6]
+__iar_lookup_ttioh      0x00000965    0x8  Code  Gb  XShttio.o [3]
+__iar_program_start     0x00000fa1         Code  Gb  cstartup_M.o [5]
+__iar_sh_stdout         0x000008b5   0x20  Code  Gb  iarwstd.o [6]
+__iar_sh_write          0x000008d5   0x22  Code  Gb  iarwrite.o [6]
+__iar_ttio_handles      0x1ffffc24    0x8  Data  Lc  XShttio.o [3]
+__iar_zero_init3        0x00000e15   0x3c  Code  Gb  zero_init3.o [5]
+__low_level_init        0x00000f1f    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000         Data  Gb  vector_table_M.o [5]
+__write                 0x00000883   0x10  Code  Gb  write.o [6]
+_call_main              0x00000f11         Code  Gb  cmain.o [5]
+_exit                   0x00000f2d         Code  Gb  cexit.o [5]
+_main                   0x00000f1b         Code  Gb  cmain.o [5]
+exit                    0x00000f23    0x8  Code  Gb  exit.o [3]
+longjmp                 0x00000865         Code  Gb  setjmp.o [5]
+main                    0x0000096d  0x158  Code  Gb  TestProductionCode_Runner.o [1]
+putchar                 0x00000779   0x24  Code  Gb  putchar.o [3]
+setUp                   0x00000ae5    0x8  Code  Gb  TestProductionCode.o [1]
+setjmp                  0x0000084d         Code  Gb  setjmp.o [5]
+tearDown                0x00000aed    0x2  Code  Gb  TestProductionCode.o [1]
+test_FindFunction_WhichIsBroken_ShouldReturnTheIndexForItemsInList_WhichWillFailBecauseOurFunctionUnderTestIsBroken
+                        0x00000b63   0x30  Code  Gb  TestProductionCode.o [1]
+test_FindFunction_WhichIsBroken_ShouldReturnZeroIfItemIsNotInList_WhichWorksEvenInOurBrokenCode
+                        0x00000aef   0x74  Code  Gb  TestProductionCode.o [1]
+test_FunctionWhichReturnsLocalVariable_ShouldReturnCurrentCounter_ButFailsBecauseThisTestIsActuallyFlawed
+                        0x00000bdd   0x18  Code  Gb  TestProductionCode.o [1]
+test_FunctionWhichReturnsLocalVariable_ShouldReturnTheCurrentCounterValue
+                        0x00000b93   0x32  Code  Gb  TestProductionCode.o [1]
+test_FunctionWhichReturnsLocalVariable_ShouldReturnTheCurrentCounterValueAgain
+                        0x00000bc5   0x18  Code  Gb  TestProductionCode.o [1]
+
+
+[1] = C:\Users\sleewin\repos\code\unityTest\Debug\Obj
+[2] = command line
+[3] = dl6M_tln.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  2 384 bytes of readonly  code memory
+    736 bytes of readonly  data memory
+    664 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

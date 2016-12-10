@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/src/ProductionCode.c
+ProductionCode.h
+/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/src/ProductionCode.h
+
+/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/src/ProductionCode.h
+

@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libexample_1.a  CMakeFiles/example_1.dir/src/ProductionCode.c.o
+/usr/bin/ranlib.exe libexample_1.a

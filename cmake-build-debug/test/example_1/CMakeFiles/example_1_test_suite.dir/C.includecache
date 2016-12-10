@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../example_1/src/ProductionCode.h
+
+../external/Unity/src/unity.h
+unity_internals.h
+../external/Unity/src/unity_internals.h
+
+../external/Unity/src/unity_internals.h
+unity_config.h
+../external/Unity/src/unity_config.h
+setjmp.h
+-
+math.h
+-
+stdint.h
+-
+limits.h
+-
+stdio.h
+-
+stdio.h
+-
+
+/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/TestProductionCode.c
+ProductionCode.h
+/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/ProductionCode.h
+unity.h
+/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/unity.h
+
+/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/test_runners/TestProductionCode_Runner.c
+unity.h
+/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/test_runners/unity.h
+setjmp.h
+-
+stdio.h
+-
+ProductionCode.h
+/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/test_runners/ProductionCode.h
+

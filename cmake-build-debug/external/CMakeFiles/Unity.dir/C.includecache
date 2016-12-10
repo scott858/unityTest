@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src/unity.c
+unity.h
+/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src/unity.h
+stddef.h
+-
+stdio.h
+-
+
+/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src/unity.h
+unity_internals.h
+/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src/unity_internals.h
+
+/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src/unity_internals.h
+unity_config.h
+/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src/unity_config.h
+setjmp.h
+-
+math.h
+-
+stdint.h
+-
+limits.h
+-
+stdio.h
+-
+stdio.h
+-
+

@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="unityTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\example_1\;CMake Files\example_2\;CMake Files\example_3\;CMake Files\external\;CMake Files\test\;CMake Files\test\example_1\;CMake Files\test\example_2\;CMake Files\test\example_3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_1">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_1/libexample_1.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_1/Makefile&quot;  VERBOSE=1 example_1"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_1/fast">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_1/libexample_1.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_1/Makefile&quot;  VERBOSE=1 example_1/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_2">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_2/libexample_2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_2/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_2/Makefile&quot;  VERBOSE=1 example_2"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_2/fast">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_2/libexample_2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_2/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_2/Makefile&quot;  VERBOSE=1 example_2/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_3">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_3/libexample_3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_3"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_3/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_3/Makefile&quot;  VERBOSE=1 example_3"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_3/fast">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_3/libexample_3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_3"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_3/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_3/Makefile&quot;  VERBOSE=1 example_3/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/example_3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Unity">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/external/libUnity.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/external"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 Unity"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Unity/fast">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/external/libUnity.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/external"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 Unity/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_1_test_suite">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_1/example_1_test_suite.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/src"/>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_1/Makefile&quot;  VERBOSE=1 example_1_test_suite"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_1_test_suite/fast">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_1/example_1_test_suite.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/src"/>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_1/Makefile&quot;  VERBOSE=1 example_1_test_suite/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_2_test_suite">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_2/example_2_test_suite.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_2/src"/>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_2/Makefile&quot;  VERBOSE=1 example_2_test_suite"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_2_test_suite/fast">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_2/example_2_test_suite.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_2/src"/>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_2/Makefile&quot;  VERBOSE=1 example_2_test_suite/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_3_test_suite">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_3/example_3_test_suite.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_3/src"/>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_3/Makefile&quot;  VERBOSE=1 example_3_test_suite"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_3_test_suite/fast">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_3/example_3_test_suite.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_3/src"/>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_3/Makefile&quot;  VERBOSE=1 example_3_test_suite/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/cmake-build-debug/test/example_3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/src/ProductionCode.c">
+			<Option target="example_1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/src/ProductionCode.h">
+			<Option target="example_1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_2/src/ProductionCode2.c">
+			<Option target="example_2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_2/src/ProductionCode2.h">
+			<Option target="example_2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_3/src/ProductionCode.c">
+			<Option target="example_3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_3/src/ProductionCode.h">
+			<Option target="example_3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src/unity.c">
+			<Option target="Unity"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src/unity.h">
+			<Option target="Unity"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/TestProductionCode.c">
+			<Option target="example_1_test_suite"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/test_runners/TestProductionCode_Runner.c">
+			<Option target="example_1_test_suite"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_2/TestProductionCode2.c">
+			<Option target="example_2_test_suite"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_2/test_runners/TestProductionCode2_Runner.c">
+			<Option target="example_2_test_suite"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_3/TestProductionCode.c">
+			<Option target="example_3_test_suite"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\example_1\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\example_2\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\example_3\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\example_1\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\example_2\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\example_3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

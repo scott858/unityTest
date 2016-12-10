@@ -1,0 +1,1 @@
+gcc  -std=c99 -DDEBUG_PL455=1 -O0 -g3 -Wall -g  -Wl,--enable-auto-import CMakeFiles/example_3_test_suite.dir/TestProductionCode.c.o  -o example_3_test_suite.exe -Wl,--out-implib,libexample_3_test_suite.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ../../example_3/libexample_3.a ../../external/libUnity.a 

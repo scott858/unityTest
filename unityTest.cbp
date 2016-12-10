@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="unityTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\example_1\;CMake Files\external\;CMake Files\test\;CMake Files\test\example_1\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_1">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/libexample_1.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/Makefile&quot;  VERBOSE=1 example_1"/>
+					<CompileFile command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_1/fast">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/libexample_1.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/Makefile&quot;  VERBOSE=1 example_1/fast"/>
+					<CompileFile command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Unity">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/libUnity.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/external"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Makefile&quot;  VERBOSE=1 Unity"/>
+					<CompileFile command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Unity/fast">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/libUnity.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/external"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Makefile&quot;  VERBOSE=1 Unity/fast"/>
+					<CompileFile command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_1_test_suite">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/example_1_test_suite.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/src"/>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/Makefile&quot;  VERBOSE=1 example_1_test_suite"/>
+					<CompileFile command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_1_test_suite/fast">
+				<Option output="/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/example_1_test_suite.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/src"/>
+					<Add directory="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/Makefile&quot;  VERBOSE=1 example_1_test_suite/fast"/>
+					<CompileFile command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -f &quot;/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/src/ProductionCode.c">
+			<Option target="example_1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/src/ProductionCode.h">
+			<Option target="example_1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src/unity.c">
+			<Option target="Unity"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/Unity/src/unity.h">
+			<Option target="Unity"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/TestProductionCode.c">
+			<Option target="example_1_test_suite"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/example_1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\example_1\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/external/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/sleewin/repos/code/unityTest/test/example_1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\example_1\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
